@@ -1,0 +1,82 @@
+.cabPedido {
+  background-color:#000;
+  width:95%;
+  color:#FFF;
+  font-weight:bold;
+  font-size:large;
+  padding: 8px 5px 5px 5px;
+}
+
+.cabIdCliente, .resPedido {
+  background-color:#5C7E6F;
+  color:#FFF;
+  font-weight:bold;
+  width:95%;
+  padding: 2px 5px 1px 5px;
+  margin-top:5px;
+}
+
+.resPedido span {
+  float: right;
+  margin-right: 20px;
+}
+
+.detIdCliente{
+  background-color:#E6FFFF;
+  color:#000;
+  font-weight:bold;
+  width:95%;
+  padding: 2px 5px 1px 5px;
+  margin-top:3px;
+}
+
+.detIdCliente div {
+  background-color:#E6FFFF;
+/*  width:150px;
+  display:inline;
+  float:left;*/
+  padding-right:10px;
+}
+
+.direccionEntregaPed{
+  background-color:#E6FFFF;
+  width:250px;
+  color:#000;
+  margin-left:10px;
+  margin-top:3px;
+  padding: 5px 2px 1px 5px;
+  font-weight:bold;
+}
+.direccionEntregaPedLabel{
+  background-color:#FFF;
+  color:#000;
+  margin-left:10px;
+  margin-top:3px;
+  padding: 5px 2px 1px 5px;
+}
+
+.anulab {
+  width: 100px;
+  margin: 10px auto 0px;
+  background:#C02C11;
+  padding:8px 10px 10px 10px;
+  color:#FFF;
+  float: left;
+  margin-left: 20%;
+}
+
+.NOanulab {
+  width: 115px;
+  margin: 10px auto 0px;
+  background:#5C7E6F;
+  padding:8px 10px 10px 10px;
+  color:#FFF;
+  float: right;
+  margin-right: 20%;
+}
+
+
+.anulab a, .NOanulab a {
+  text-decoration: none;
+  color:#FFF;
+}

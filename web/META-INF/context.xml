@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/pr9">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/electrosa" password="root" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/electrosa" username="root"/>
+  <Realm className="org.apache.catalina.realm.JDBCRealm" connectionName="root" connectionPassword="root" connectionURL="jdbc:mysql://localhost:3306/electrosa" debug="99" digest="sha" driverName="com.mysql.jdbc.Driver" name="Admin en Electrosa" roleNameCol="rol" userCredCol="password" userNameCol="username" userRoleTable="rolesusuario" userTable="usuario"/>
+</Context>

@@ -1,0 +1,66 @@
+form {
+  width:90%;
+  margin:2em auto;
+  
+  background-color: #D5E6D9;/* por defecto; usado por IE8 */
+  background: -moz-linear-gradient(bottom, #D5E6D9, #F0FAF1);/* Firefox */
+  background: -webkit-linear-gradient(bottom, #D5E6D9, #F0FAF1);/* Chrome */
+  background: -ms-linear-gradient(bottom, #D5E6D9, #F0FAF1);/* IE 10+ */
+  
+  padding:1em;
+  box-shadow: inset 0 0 10px #000000;
+  border-radius: 5px;
+}
+
+
+form fieldset { 
+  border:none;
+}  
+
+form fieldset+fieldset {  
+  margin-top: 2em;
+}
+  
+form legend {  
+  color: #5C7E6F;  
+  font-size: 1.4em;  
+  padding: 1.2em 1.2em 0 0;
+  margin-bottom:0.5em;
+  border-bottom: 2px solid #5C7E6F;
+  width:90%;
+}  
+
+form fieldset.submit { 
+  width:90%;
+  border-top: 2px solid #5C7E6F;
+}
+
+form .submitb { 
+
+}
+
+form label {    
+  float: left;    
+  width: 10em;  
+}
+form .field {  
+  clear:left; 
+  margin-bottom:1.5em;
+}
+     
+form label span.Requerido {        
+  display: block;        
+  color: #C02C11;        
+  font-size: 55%;  
+  line-height:0.5em;      
+  font-style: normal;        
+  text-transform: uppercase;      
+}
+
+form fieldset div.left {
+  float:left;
+}
+form fieldset div.right {
+  float:right;
+  margin-right:5em;
+}

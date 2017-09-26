@@ -1,0 +1,46 @@
+
+
+.fotoDetalle {
+  float:left;
+  margin-right: 50px;
+}
+.datosDetalle {
+  float:left;
+  width:60%;
+  padding-left:4px;
+  line-height:normal;
+}
+.datos span {
+  display:block;
+}
+.codigo {
+  clear:both;
+  text-align:center;
+  position:relative;
+  bottom:-5px;
+}
+.precio {
+}
+.precio span {
+  font-size:1.2em;
+/*  margin-top:2em;*/
+  text-align:right;
+}
+.carroDetalle {
+  float:right;
+}
+
+
+.stockArt {
+  float: left;
+  margin: 1em;
+}
+
+.stockArt img {
+  vertical-align:middle;
+}
+
+.stockArt span {
+  font-size:x-large;
+  line-height:1.2em;
+}

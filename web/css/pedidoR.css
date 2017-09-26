@@ -1,0 +1,64 @@
+.contenido tr {
+  background-color:#5C7E6F;
+  color:#FFF;
+  font-weight:bold;
+  height: 45px
+}
+
+.codigo {
+  color:#005329;
+  font-weight:bold;
+  width:40px;
+}
+
+.cantidad {
+  text-align:center;
+}
+
+.descr {
+	font-style: italic;
+	color: #333333;
+}
+
+.contenido td {
+  padding-left: 5px;
+}
+
+.contenido tr+tr {
+  background-color:#FFF;
+  color:#000;
+  font-weight:normal;
+  height: 65px
+}
+
+.contenido tr+tr td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5C7E6F;
+}
+
+.submitb { 
+  background-color: #D1E9E9;
+  border-color:#5C7E6F;
+  border-width: 1px;
+  border-style: solid;
+  padding:8px 12px 10px 12px;
+  color:#000;
+  margin-right:2em;
+  margin-top:1em;
+}
+
+.cerrar {
+  background-color: #5C7E6F;
+  border:none;
+  color:#FFF;
+  margin-left:4em;
+}
+
+.cancelar {
+  background-color: #C02C11;
+  border:none;
+  float:right;
+  color:#FFF;
+  margin-right:3em;
+}

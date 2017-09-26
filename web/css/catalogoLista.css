@@ -1,0 +1,114 @@
+
+.resultBusqueda {
+  padding:0;
+  width:95%;
+  margin:auto;
+  clear:both;
+}
+
+.item {
+  list-style:none;
+  padding:5px;
+  margin:5px;
+/*  border: 1px solid #5C7E6F;*/
+  width:600px;
+  height:130px;
+}
+
+.redondeo {
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+}
+
+.foto {
+  width: 15%;
+  float:left;
+}
+.datos {
+  width: 70%;
+  float:left;
+  padding-left:4px;
+  font-weight:bold;
+  line-height:normal;
+}
+.datos span {
+  display:block;
+  background-color: #5C7E6F;
+  color:#FFFFFF;
+  padding:4px;
+}
+.codigo {
+  width: 15%;
+  float:left;
+  padding:4px;
+}
+.precio {
+  width:80%;
+  float:left;
+}
+.precio span {
+  font-size:1.2em;
+  margin-top:1em;
+  background-color: #FFFFFF;
+  color:#666;
+}
+
+span.oferta {
+  color:red;
+}
+
+.carro {
+  width:20%;
+  float:left;
+  margin-top:1.4em;
+}
+
+.modovisual {
+  text-decoration:none;
+  float:right;
+}
+#filtroCatalogo {
+  float:left;
+}
+.contenido {
+  padding:20px;
+}
+
+.contenido h1 {
+  color: #5C7E6F;
+  margin-top:0;
+  padding-top:20px;
+}
+.resumResul {
+  width:600px;
+  clear:both;
+  border: 1px solid #5C7E6F;
+  padding:5px;
+  margin-left:23px;
+  margin-top:20px;
+}
+
+.filtroCatalogo {
+  margin-top: 10px;
+  width:710px;
+  clear:both;
+  border: 1px solid #5C7E6F;
+  padding:5px;
+  padding-bottom: 7px;
+}
+
+#filtroCatalogo input{
+  margin:0;
+}
+
+#filtroCatalogo label{
+  margin-left:10px;
+}
+
+#buscar {
+  vertical-align:bottom;
+  padding-left:20px;
+}

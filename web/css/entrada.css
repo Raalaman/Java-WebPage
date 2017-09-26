@@ -1,0 +1,88 @@
+#flogin {
+  width:260px;
+  margin-left:2em;
+  margin-top:2em;
+  background:#D5E6D9;
+}
+  
+#flogin legend {  
+  color: #5C7E6F;  
+  font-size: 1.4em;  
+  padding: 1.2em 1.2em 0 0;
+  margin-bottom:0.5em;
+  border-bottom: 2px solid #5C7E6F;
+  width:90%;
+}  
+
+.submitb { 
+  background-color: #5C7E6F;
+  border: none;  
+  padding:8px 12px 10px 12px;
+  color:#FFFFFF;
+  margin-right:1em;
+}
+#flogin .field {  
+  clear:left; 
+  margin-bottom:1.5em;
+  margin-left: 1.5em
+}
+
+#frecuerdo .field {  
+  clear:left; 
+  margin-bottom:1.5em;
+  margin-left: 1.5em
+}
+
+#frecuerdo {
+  width:260px;
+  margin-left:2em;
+  background:#D5E6D9;
+}
+  
+#frecuerdo legend {  
+  color: #5C7E6F;  
+  font-size: 1.4em;  
+  padding: 1.2em 1.2em 0 0;
+  margin-bottom:0.5em;
+  border-bottom: 2px solid #5C7E6F;
+  width:90%;
+}  
+
+
+.nuevo {
+  width:150px;
+  margin-left: 50px;
+  margin-top:2em;
+  background:#69DA84;
+  padding:15px 15px 25px 15px;
+}
+
+.registrob {
+  width: 80px;
+  margin: 10px auto 0px;
+  background:#5C7E6F;
+  padding:8px 10px 10px 10px;
+}
+
+.registrob a { 
+  background-color: #5C7E6F;
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+/* Igual que en formulario.css */
+form fieldset { 
+  border:none;
+  padding: 2em 0 0.5em;
+}  
+
+form label {    
+  float: left;    
+  width: 10em;  
+}
+
+#flogin input:focus {
+  -moz-box-shadow:    0px 1px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px 3px #ccc;
+  box-shadow:         0px 1px 3px #5C7E6F;
+}

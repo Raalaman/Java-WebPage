@@ -1,0 +1,18 @@
+.bloqueAcciones {
+  float:left;
+  padding-left:1em;
+  padding-right:1em;
+}
+
+.bloqueAcciones p {
+  padding-left: 1em;
+  line-height: 1em;
+}
+
+.bloqueAcciones a {
+  text-decoration: none;
+}
+
+.bloqueAcciones a:hover {
+  text-decoration: underline;
+}
